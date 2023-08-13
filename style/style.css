@@ -473,25 +473,26 @@ nav .search-btn button::before {
   position: absolute;
   top: 0;
   left: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   background: #fff;
   border: 1px solid #005bff;
   border-radius: 2px;
+  content: ""; 
 }
 
-.filter-check_checkmark.checked::after {
-  display: block;
+.filter-check_checkbox:checked + .filter-check_label .filter-check_checkmark {
+  background: #005bff;
+  border-color: #005bff;
 }
 
-.filter-check_checkmark:after {
-  display: none;
+.filter-check_checkbox:checked + .filter-check_label .filter-check_checkmark::after {
+  display: block !important;
+  content: "";
   width: 15px;
   height: 15px;
   position: absolute;
   top: -4px;
   left: 2px;
-  content: "";
   background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg viewBox='0 0 15 15' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M5.3 15L15 1.2 13.7 0 5.1 12.3 1.1 8 0 9.4 5.3 15z' fill='%23005bff'/%3E%3C/svg%3E");
 }
 

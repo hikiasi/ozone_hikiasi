@@ -1,5 +1,3 @@
-# ozone_hikiasi
-
 <h1 align="center">Интенсив по JavaScript от Glo Academy: "OZONE"</h1>
 
 <div align="center">

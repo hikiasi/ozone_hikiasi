@@ -27,7 +27,7 @@
 <br>
 Деплой: <i>Ссылка появится позже</i>
 <br>
-Интенсив от: <a href="[https://xn--80aqfgda6as.xn--p1ai/](https://www.youtube.com/@Glo_Academy/streams)">&laquo;Glo Academy&raquo;</a>
+Интенсив от: <a href="https://www.youtube.com/@Glo_Academy">&laquo;Glo Academy&raquo;</a>
 <br>
 
 <div align="right">(<a href="#summary">к оглавлению</a>)</div>
@@ -36,6 +36,7 @@
 <span>
   <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" alt="Иконка 'JavaScript'">
   <img src="https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white" alt="Иконка 'Sass (SCSS)'">
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="Иконка 'HTML5'">
 </span>
 
 <div align="right">(<a href="#summary">к оглавлению</a>)</div>

@@ -1,6 +1,8 @@
 const renderGoods = (goods) => {
   const goodsWrapper = document.querySelector(".goods");
 
+  localStorage.setItem("goods", JSON.stringify(goods));
+
   goodsWrapper.innerHTML = "";
 
   goods.forEach((goodsItem) => {
@@ -8,7 +10,7 @@ const renderGoods = (goods) => {
       "beforeend",
       `
         <div class="col-12 col-md-6 col-lg-4 col-xl-3">
-            <div class="card">
+            <div class="card" data-key="${goodsItem.id}">
                 ${
                   goodsItem.sale
                     ? '<div class="card-sale">🔥Hot Sale🔥</div>'

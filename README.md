@@ -25,7 +25,7 @@
 
 <b>Ссылки на проект:</b>
 <br>
-Деплой: <i>Ссылка появится позже</i>
+Деплой: <i><a href="https://hikiasi.github.io/ozone_hikiasi/">&laquo;Демо&raquo;</a></i>
 <br>
 Интенсив от: <a href="https://www.youtube.com/@Glo_Academy">&laquo;Glo Academy&raquo;</a>
 <br>
